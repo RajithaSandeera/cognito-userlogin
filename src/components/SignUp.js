@@ -14,8 +14,8 @@ const SignUp = () => {
 
     AWS.config.update({
     region: 'ap-southeast-1', // Replace with your AWS region
-    accessKeyId: 'AKIAX6P5VLDC4Q2PVMJA', // Replace with your access key ID
-    secretAccessKey: '3qlGUYbgRNTEjYWmmQkaaAHQW4c3k/vMLfuSZlK2' // Replace with your secret access key
+    accessKeyId: '', // Replace with your access key ID
+    secretAccessKey: '' // Replace with your secret access key
     });
 
     const cognitoidentityserviceprovider = new AWS.CognitoIdentityServiceProvider();
